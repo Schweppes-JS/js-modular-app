@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .body {
@@ -15,7 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Architects Daughter", cursive;
   font-size: 1.37rem;
 }
 
@@ -46,14 +46,18 @@
 }
 
 .input {
+  outline: none;
   background: none;
   border: none;
   padding-left: 5px;
-  font-family: inherit;
   font-size: 1.37rem;
   font-weight: 900;
   border-radius: 3px;
   background-color: rgba(215, 121, 167, 1);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2px rgb(160, 91, 45);
 }
 
 .button {
@@ -67,7 +71,6 @@
   padding: 5px;
   box-shadow: inset 0 0 5px 5px rgba(255, 255, 255, .1);
   font-size: 1.13rem;
-  font-family: "Architects Daughter", cursive;
   font-size: 1.37rem;
   font-weight: 900;
 }
@@ -81,7 +84,6 @@
   outline: none;
   border: none;
   font-size: 1.37rem;
-  font-family: "Architects Daughter", cursive;
   font-weight: 900;
   background-color: rgba(215, 121, 167, 1);
   border-radius: 3px;
